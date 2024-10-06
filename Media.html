@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=", initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var num1, num2, num3, num4;
+    var media;
+    num1=parseFloat(prompt("Digite sua primeira nota"));
+    num2=parseFloat(prompt("Digite sua segunda nota"));
+    num3=parseFloat(prompt("Digite sua terceira nota"));
+    num4=parseFloat(prompt("Digite sua quarta nota"));
+
+    media = (num1+num2+num3+num4) / 4;
+    if (media > 6){
+        alert ("Você foi aprovado!!")
+    }
+    else if(media ==6){{
+        alert ("Você está de recuperação!!")
+}}
+else{
+    alert("Você foi reprovado!!")
+}
+
+document.write("Sua media é: " + media);
+</script>
+<body>
+    
+</body>
+</html>
